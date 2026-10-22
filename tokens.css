@@ -1,0 +1,62 @@
+/* Hallmark · tokens · route: custom (tuned) · vibe: "бланк с печатью, чернила и зелёный штамп"
+ * paper: oklch(95% 0.016 95) · accent: oklch(40% 0.10 155)
+ * display: Spectral · body: IBM Plex Sans · outlier: IBM Plex Mono (ведомость и телефон, два места)
+ * axes: light / roman-serif / chromatic-green ~155
+ * Каталожные темы hallmark в установленном скилле лежат без файла токенов (site/css/tokens.css),
+ * поэтому тема собрана по протоколу custom, а не взята из каталога.
+ */
+:root {
+  --color-paper:    oklch(95% 0.016 95);
+  --color-paper-2:  oklch(92.5% 0.018 95);
+  --color-rule:     oklch(80% 0.020 100);
+  --color-rule-2:   oklch(86% 0.018 100);
+  --color-neutral:  oklch(52% 0.018 130);
+  --color-muted:    oklch(42% 0.018 130);
+  --color-ink:      oklch(20% 0.020 150);
+  --color-ink-2:    oklch(32% 0.020 150);
+  --color-accent:   oklch(40% 0.10 155);
+  --color-accent-ink: oklch(96% 0.014 95);
+  --color-focus:    oklch(42% 0.14 155);
+
+  --font-display: "Spectral", "Georgia", ui-serif, serif;
+  --font-body:    "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-outlier: "IBM Plex Mono", ui-monospace, monospace;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs:   0.8125rem;
+  --text-sm:   0.9375rem;
+  --text-base: 1.0625rem;
+  --text-md:   1.375rem;
+  --text-lg:   1.75rem;
+  --text-xl:   2.125rem;
+  --text-display:   clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-display-s: clamp(2.1rem, 3vw + 1rem, 3.25rem);
+
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 200ms;
+
+  --rule-hair: 1px;
+  --rule-ink:  2px;
+  --radius-card: 0;
+  --radius-input: 0;
+  --radius-pill: 0;
+
+  --page-gutter: clamp(1rem, 5vw, 3rem);
+  --shell: 76rem;
+
+  --z-base: 1;
+  --z-raised: 10;
+}
